@@ -180,12 +180,12 @@ function sayhello()
 sayhello();
 
 //String add
-function sayhello__(giri)//parameter pass
+function sayhello__(name)//parameter pass
 {
-    console.log(`Hi ${giri}`);
+    console.log(`Hi ${name}`);
 }
 
-sayhello__('pranavamuthu change');
+sayhello__('pranavamuthu');
 
 //Addtion
 function say_hello(a,b)
@@ -308,7 +308,43 @@ console.log(Math.ceil(number4));
 
 console.log(Math.random() * 10 +1);
 
-let upper = 6;
-let lower = 1;
 
-console.log(Math.floor(Math.random() * (upper - lower + 1) ));
+let upper =25;
+let lower =20;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
