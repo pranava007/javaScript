@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DOM</title>
+    <!-- Required meta tags --> 
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- oncontextmenu="return false" -->
+    <div id="head">
+      <h1 id="head_food">
+        🍕Food Planner
+      <a href="./boot.html"><span style="color: white;">credite</span></a>  
+      <a href="./From.html"><span style="color: white;">Feed-Back</span></a>  
+      </h1>
+    </div>
+
+    <div id="main">
+      <div class="aler">
+        <div id="x_remove"><strong>✅Successful!</strong> Food is updated!</div>
+
+        <button type="button" id="close" class=".mount">X</button>
+      </div>
+
+      <div class="bg_c">
+        <input
+          type="text"
+          name="foo"
+          placeholder="I Like to eat"
+          class="inputbox"
+          id="input_food"
+          value=""
+        />
+
+        <button id="id_btn">save</button>
+      </div>
+
+      <div id="data">
+        <div id="respons">
+          <ul id="item" class="uliteam">
+            List-Food
+            <li class="foot-item" id="mass">
+              <div id="fix">sambar</div>
+              <div onclick="removeItem(event)">
+                <button id="remove" class="btnclos">X</button>
+              </div>
+            </li>
+            <li class="foot-item" id="mass">
+              <div id="fix">lamen</div>
+              <div onclick="removeItem(event)">
+                <button id="remove" class="btnclos">X</button>
+              </div>
+            </li>
+            <li class="foot-item" id="mass">
+              <div id="fix">rasam</div>
+              <div onclick="removeItem(event)">
+                <button id="remove" class="btnclos">X</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <button
+        id="showbtn"
+        type="button"
+        style="
+          margin: 10px;
+          font-size: 15px;
+          float: right;
+          background-color: royalblue;
+          border: none;
+          outline: none;
+          padding: 5px;
+          border-radius: 5px;
+          color: white;
+        "
+      >
+        Hied div
+      </button>
+
+      <div class="sec-input">
+        <input
+          type="text"
+          placeholder="Your Age"
+          name="text"
+          id="secinput"
+          class="input-name-styles"
+        />
+        <button class="sec-btn" id="butt-sec">save</button>
+        <br />
+        <div id="display" class="dis-class">display</div>
+      </div>
+
+      <form>
+        form
+
+        <div>
+          div
+
+          <p>p</p>
+        </div>
+      </form>
+
+      <form action="" id="formTerm">
+        <input type="text" placeholder="Your Name" id="inputTerm" /> <br/>
+        <input type="number" placeholder="Your Age" id="AgeTerm"> <br>
+        <label for="radioMale"> genter :
+          <input type="radio" name="genter" id="radioMale " >Male
+          <input type="radio" name="genter" id="radioFMale " >Female <br></label><br>
+        
+        <input type="number" placeholder="Your Number" id="numberTerm"> <br>
+        <label for="checkTerm">
+          <input type="checkbox" id="checkTerm" /> I Accept the
+          <a href="#">Terms and Condition</a> </label
+        ><br/>
+        <button type="submit" id="buttonTerm" class="btnTerm">Sumbit</button>
+      </form>
+    </div>
+
+    <div id="listofli">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+      <li>7</li>
+      <li>8</li>
+      <li>9</li>
+      <li>10</li>
+    </div>
+    <!-- <button id="btnid" class="btn">asyn</button>
+    <div id="try" class="trycss"></div> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- 
+    <script>
+       
+      let div = document.getElementsByTagName("div");
+      console.log(div);
+    </script> 
+
+    <div>
+      <h1>hi</h1>
+    </div>
+
+    <script>
+      console.log(div);
+
+    </script> -->
+
+    <script src="./asste.js/app.js"></script>
+    <script src="./asste.js/alert.js"></script>
+    <script src="./asste.js/inputeclass.js"></script>
+
+    <script src="./asste.js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
